@@ -8,7 +8,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new MyImage(this)); //getApplicationContext()도 가능
+        setContentView(R.layout.activity_main); //getApplicationContext()도 가능
     }
 
 }
